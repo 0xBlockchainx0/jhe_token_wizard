@@ -1,3 +1,24 @@
+# Development
+## scss watch
+```
+ gulp watch
+```
+## local server:
+```
+npm run start
+```
+# Deployment:
+## static server (FTP transfer):
+```
+npm run build
+```
+deploy /build folder to server via FTP
+## Netlify:
+commit and push file to repo, Netlify will build automatically
+
+---
+---
+
 ![Token Wizard DApp](/docs/github_head.png)
 
 # Token Wizard DApp

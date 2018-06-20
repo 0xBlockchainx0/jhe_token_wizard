@@ -381,7 +381,7 @@ export class Invest extends React.Component {
             </div>
             <div className="hashes-i">
               <p className="hashes-title">{tokenName}</p>
-              <p className="hashes-description">Name</p>
+              <p className="hashes-description">Token Name</p>
             </div>
             <div className="hashes-i">
               <p className="hashes-title">{tokenTicker}</p>

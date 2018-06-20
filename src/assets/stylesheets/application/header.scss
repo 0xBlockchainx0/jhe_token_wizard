@@ -3,16 +3,20 @@
   position: absolute;
   top: 0;
   height: $header-height;
-  background-image: url(../images/bg.png);
+  // background-image: url(../images/bg.png);
   background-size: cover;
   background-position: center center;
 
   .logo {
     @extend %logos;
-    width: 182px;
-  	height: 35px;
-    margin-top: ($header-height - 35px) / 2;
-  	background-position: 0 -25px;
+    // width: 182px;
+  	// height: 35px;
+    // margin-top: ($header-height - 35px) / 2;
+  	// background-position: 0 -25px;
+    width: 105px;
+    height: 110px;
+    margin-top: 22.5px;
+    background-position: 0px 0px
   }
 }
 

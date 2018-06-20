@@ -30,6 +30,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/crowdsale" component={Crowdsale}/>
             <Route exact path="/invest" component={Invest}/>
+            <Route exact path="/invest.html" component={Invest}/>
             <Route exact path="/stats" component={Stats}/>
 
             <Route>
@@ -46,7 +47,8 @@ class App extends Component {
                       <IncompleteDeploy />
                     ) : (
                       <Switch>
-                        <Route exact path="/" component={crowdsaleAddr ? Crowdsale : Home}/>
+                        <Route exact path="/" component={Crowdsale}/>
+                        {/* <Route exact path="/" component={crowdsaleAddr ? Crowdsale : Home}/> */}
                         <Route exact path="/manage/:crowdsaleAddress" component={Manage}/>
                         <Route path="/1" component={stepOne}/>
                         <Route path="/2" component={stepTwo}/>
